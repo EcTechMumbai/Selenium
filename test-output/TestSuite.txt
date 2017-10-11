@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.28 sec <<< FAILURE! - in TestSuite
+feature(com.morning.runner.Runner)  Time elapsed: 4.714 sec  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.NoSuchElementException: Unable to locate element: html>body>div>table>tbody>tr>td>table>tbody>tr>td>table>tbody>tr>td>table>tbody>tr>td>p>a>font>b
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'IN-M307WFY1', ip: '10.90.18.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\UGHAWT~1.001\AppData\Local\Temp\rust_mozprofile.TDEDXF0VQsum, rotatable=false, timeouts={implicit=0.0, page load=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.4.0, platformVersion=6.1, moz:processID=3600.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 3620c906-d14e-40d8-9a42-8107125c1b7c
+*** Element info: {Using=css selector, value=html>body>div>table>tbody>tr>td>table>tbody>tr>td>table>tbody>tr>td>table>tbody>tr>td>p>a>font>b}
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: html>body>div>table>tbody>tr>td>table>tbody>tr>td>table>tbody>tr>td>table>tbody>tr>td>p>a>font>b
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'IN-M307WFY1', ip: '10.90.18.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\UGHAWT~1.001\AppData\Local\Temp\rust_mozprofile.TDEDXF0VQsum, rotatable=false, timeouts={implicit=0.0, page load=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.4.0, platformVersion=6.1, moz:processID=3600.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 3620c906-d14e-40d8-9a42-8107125c1b7c
+*** Element info: {Using=css selector, value=html>body>div>table>tbody>tr>td>table>tbody>tr>td>table>tbody>tr>td>table>tbody>tr>td>p>a>font>b}
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">test</th></tr><tr><td><a href="#t0">Test Login</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">5,005</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test Login &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.morning.runner.Runner</td><td><a href="#m0">feature</a></td><td rowspan="1">1507706628788</td><td rowspan="1">4707</td></tr></tbody></table><h2>Test Login</h2><h3 id="m0">com.morning.runner.Runner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>LoginFeature</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchElementException: Unable to locate element: html&gt;body&gt;div&gt;table&gt;tbody&gt;tr&gt;td&gt;table&gt;tbody&gt;tr&gt;td&gt;table&gt;tbody&gt;tr&gt;td&gt;table&gt;tbody&gt;tr&gt;td&gt;p&gt;a&gt;font&gt;b
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;IN-M307WFY1&apos;, ip: &apos;10.90.18.101&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\UGHAWT~1.001\AppData\Local\Temp\rust_mozprofile.TDEDXF0VQsum, rotatable=false, timeouts={implicit=0.0, page load=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.4.0, platformVersion=6.1, moz:processID=3600.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 3620c906-d14e-40d8-9a42-8107125c1b7c
+*** Element info: {Using=css selector, value=html&gt;body&gt;div&gt;table&gt;tbody&gt;tr&gt;td&gt;table&gt;tbody&gt;tr&gt;td&gt;table&gt;tbody&gt;tr&gt;td&gt;table&gt;tbody&gt;tr&gt;td&gt;p&gt;a&gt;font&gt;b}
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: html&gt;body&gt;div&gt;table&gt;tbody&gt;tr&gt;td&gt;table&gt;tbody&gt;tr&gt;td&gt;table&gt;tbody&gt;tr&gt;td&gt;table&gt;tbody&gt;tr&gt;td&gt;p&gt;a&gt;font&gt;b
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;IN-M307WFY1&apos;, ip: &apos;10.90.18.101&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\UGHAWT~1.001\AppData\Local\Temp\rust_mozprofile.TDEDXF0VQsum, rotatable=false, timeouts={implicit=0.0, page load=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.4.0, platformVersion=6.1, moz:processID=3600.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 3620c906-d14e-40d8-9a42-8107125c1b7c
+*** Element info: {Using=css selector, value=html&gt;body&gt;div&gt;table&gt;tbody&gt;tr&gt;td&gt;table&gt;tbody&gt;tr&gt;td&gt;table&gt;tbody&gt;tr&gt;td&gt;table&gt;tbody&gt;tr&gt;td&gt;p&gt;a&gt;font&gt;b}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at com.morning.Setup.StepDefinition.i_should_see_the_userform_page(StepDefinition.java:85)
+	at ?.Then I should see the userform page(src/test/resources/Features/login.feature:12)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
